@@ -1,0 +1,12 @@
+
+header {
+    display: flex;
+    background-color: aquamarine;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}

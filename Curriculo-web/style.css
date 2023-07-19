@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #9775aa;
+}
+
+#body_secundario {
+    display: flex;
+    flex-direction: row;
+}
+
+/*estilização do cabeçalho lateral*/
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #582a72;
+    margin: 0.7em 0em 1em 1em;
+    width: 80em;
+    height: 100%;
+    box-shadow: 0px 0px 8px black;
+    border: 1px solid #2603399a;
+}
+
+/**seção header dados pessoais*/
+.bloco_header {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0em;
+    border-top: 5px solid rgb(33, 3, 45);
+    height: 100%;
+}
+
+#bloco_espaco_nome {
+    width: 4em;
+    height: 1em;
+    background-color: #9775aa;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 0.5em 0em;
+
+    background-color: #764b8e;
+}
+
+.dados_usuario_pessoal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4em 0em;
+    overflow: hidden;
+}
+
+
+figure {
+    display: block;
+    height: 100%;
+}
+figure > img {
+    display: flex;
+    padding: 0em 1em;
+} 
+
+.dados_usuario_pessoal_direita {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.habilidade_usuario_unitario {
+    display: flex;
+    margin-top: 1em;
+}
+
+.idioma_usuario_unitario {
+    display: flex;
+    margin-top: 1em;
+}
+
+.repositorio_usuario_pessoal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4em 0em;
+    overflow: hidden;
+}
+
+.repositorio_usuario_link {
+    display: flex;
+    margin-top: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.repositorio_usuario_link :hover {
+    text-shadow:2px 2px 5px rgba(214, 21, 21, 0.612);
+}
+
+/*estilização do corpo principal do webpage*/
+main{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.main_comon {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    box-shadow: 0px 0px 8px black;
+    border: 1px solid #2603399a;
+    background-color: #582a72;
+}
+
+.main_usuario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.4em 0em;
+    overflow: hidden;
+    padding: 2em 0em;
+}
+
+.main_usuario > h2 {
+    font-size: 2em;
+}
+
+/*Estilização do bloco de experiência*/
+.texto_pessoal {
+    margin-left: 4em;  
+    padding-bottom: 1em; 
+}
+
+.texto_pessoal_calendario {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5em;
+}
+
+.img_calendario{
+    display: block;
+    padding-left: 0em;
+}
+
+.texto_pessoal > p {
+    padding-top: 0.5em;
+}
+
+/*estilização do bloco de educação*/
+.texto_educacao{
+    margin-left: 4em;  
+    padding-bottom: 1em;
+}
+
+.texto_educacao_calendario {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5em;
+}
+
+.texto_educacao > p {
+    padding-top: 0.5em;
+}
+
+/*Estilização do rodapé*/
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw ;
+    margin-top: 1em;
+    background-color: #260339;
+}
+
+footer > h2 {
+    font-size: 1em;
+    margin: 1.5em 0em;
+}
+
+#redes_sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.redes_sociais_icons {
+    margin: 0em 1em;
+    margin-bottom: 1em;
+}
+
+.redes_sociais_icons :hover {
+    background-color: rgba(214, 21, 21, 0.612);
+    box-shadow: 2px 2px 5px black ;
+}
+
+button {
+    width: 50px;
+    height: 40px;
+    border-radius: 20%;
+    position: fixed;
+    background-color: rgba(214, 21, 21, 0.612);
+    float: right;
+    top: 2em;
+    right: 2em;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px black;
+}
+
+#firstHello {
+    display: block;
+    font-size: 10em;
+    color: black;
+    text-shadow: 0em 0em 2em black;
+}
